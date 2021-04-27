@@ -1,4 +1,4 @@
-# Chess on JavaScript / Шахматы на нативном JavaScript
+## Chess on JavaScript / Шахматы на нативном JavaScript
 
 ### 1. Массив "list__cells"
  - содержит все начальные значения объектов, из которых позже происходит отслеживание положения клетки по ее идентификатору
@@ -9,14 +9,14 @@
 ### 3. Массив "matrix"
  - содержит все начальные значения innerHTML клеток на шахматной доске
 
-### Функция "emptyCell(cell)" 
+### 4. Функция "emptyCell(cell)" 
  - отдает значение true в том, случае, если клетка пуста
 
-### Функции cellsInnerHTMLBlack(cell) и cellsInnerHTMLWhite(cell)
+### 5. Функции cellsInnerHTMLBlack(cell) и cellsInnerHTMLWhite(cell)
  - занимаются отрисовкой фигур в клетках, по ранее заданым значениям в массиве list__cellsText
 
-### Функция createCells(num, clName, parent, arr = [])
+### 6. Функция createCells(num, clName, parent, arr = [])
  - занимается созданием клеток в ранее созданных блоках
 
-### Функция createElem(element, clName, parent)
+### 7. Функция createElem(element, clName, parent)
  - создает непосредственно сам DOM элемент, и указывает его родителя
