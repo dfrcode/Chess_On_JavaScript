@@ -71,15 +71,12 @@ list__cells.forEach((cell, x) => {
     cell.addEventListener("click", () => {
       if (emptyCell(cell) === false && figure !== "") {
         cell.innerHTML = figure;
-        console.log(figure);
         figure = "";
       } else if (emptyCell(cell) === false) {
         figure = cell.innerHTML;
         cell.innerHTML = "";
-        console.log(figure);
       } else if (emptyCell(cell) === true) {
         cell.innerHTML = figure;
-        console.log(cell.innerHTML);
         figure = "";
       }
     });
